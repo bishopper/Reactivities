@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Reactivities.Infra.Data.Context;
+using Reactivities.Infra.IOC.DependencyContainer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,6 +15,8 @@ builder.Services.AddDbContext<ReactivitiesDBContext>(options =>
 });
 
 #endregion
+
+builder.Services.RegisterServices();
 
 var app = builder.Build();
 
