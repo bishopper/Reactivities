@@ -11,8 +11,6 @@
     <Folder Include="Convertors\" />
     <Folder Include="Security\" />
     <Folder Include="Senders\" />
-    <Folder Include="Services\Interfaces\" />
-    <Folder Include="Services\Implementation\" />
   </ItemGroup>
 
   <ItemGroup>
