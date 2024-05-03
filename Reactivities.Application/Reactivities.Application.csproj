@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Generators\" />
+    <Folder Include="Convertors\" />
+    <Folder Include="Security\" />
+    <Folder Include="Senders\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Implementation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Reactivities.Infra.Data\Reactivities.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
