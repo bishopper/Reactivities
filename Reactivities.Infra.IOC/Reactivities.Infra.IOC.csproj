@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DependencyContainer\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Reactivities.Application\Reactivities.Application.csproj" />
   </ItemGroup>
 
